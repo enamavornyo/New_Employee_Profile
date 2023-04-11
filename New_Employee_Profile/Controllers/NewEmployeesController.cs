@@ -7,7 +7,8 @@ using New_Employee_Profile.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-
+using System.Drawing;
+using System.Drawing.Imaging;
 
 namespace New_Employee_Profile.Views
 {
@@ -88,6 +89,12 @@ namespace New_Employee_Profile.Views
 
             return View(newEmployee);
         }
+
+
+
+       
+
+
 
         // GET: NewEmployees/Create
         public IActionResult Create()
