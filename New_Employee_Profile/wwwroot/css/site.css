@@ -16,3 +16,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+@media print {
+    body *:not(#printImage):not(#printImage *) {
+        visibility: hidden;
+    }
+}
+
